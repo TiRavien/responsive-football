@@ -1,0 +1,26 @@
+.long{
+    background-color: Blue;
+}
+.right button{
+    background-color: red;
+    color: white;
+    font-size: small;
+    border:0;
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+.grid-cell{
+    border: 1px solid black;
+}
