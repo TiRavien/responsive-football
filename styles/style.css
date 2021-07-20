@@ -1,22 +1,38 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common styles */
 .main{
-    background-color: blue;
-}
-body section{
-    font-family: 'Noto Serif', serif;
-}
+    background-color: Blue;
+    color: #FFFFFF;
+}    
 h1{
     font size: 50px;
 }
-section{
-    display: flex;
-}
 .half-width{
+    display: flex;
     width: 50%;
     font-size: 20px;
-    padding-left: 5%;
+    padding-left: 10%;
+}
+.header{
+    height: 230px;
+    width: 485px;
+    left: 156px;
+    top: 207px;
+    border-radius: nullpx;
 }
 .half-width img{
-    width: 80%;
+    height: 427px;
+    width: 567px;
+    left: 717px;
+    top: 2889px;
+    border-radius: 0px;
+
+    /* height: 438px;
+    width: 563px;
+    left: 1299px;
+    top: 153px;
+    border-radius: 0px;     */
 }
 button{
     color: white;
@@ -24,24 +40,64 @@ button{
     padding: 2px 10px;
 }
 nav a{
-    /* display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    position: static; */
+    /* height: 24px;
+    width: 587px;
+    left: 0px;
+    top: 10px;
+    border-radius: 0px; */
     width: 50%;
     text-decoration: none;
-    color: black;
+    color:#FFFFFF;
     padding: 10px 20px;
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
-.grid-container{
+.main-container{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns: repeat(3 , 1fr);
 }
-.grid-cell{
-    border: 1px solid black;
+.player{
+    float: left;
+    width: 250px;
+    height: 350px;
+    border: 3px solid white;
+    margin: 5px;
+    padding: 10px;
+    left: 10px;
+    top: 10px;
+    background-color: slategray;
+    /* height: 426px;
+    width: 300px;
+    left: 15px;
+    top: 15px;
+    margin-top: 100px;
+    margin-left: 80px; */
+    /* padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px; */
+}
+.player img{
+    width: 200px;
+}
+/* @media (max-width: 700px) {
+    margin-bottom: 20px;
+}
+.menu-container{
+    flex-direction: column;
+}
+@media (min-width: 900px) {
+    
+} */
+.last-menu{
+    height: 200px;
+    width: 400px;
+    left: 3000px;
+    top: 3474px;
+    border-radius: 0px;
+
 }
